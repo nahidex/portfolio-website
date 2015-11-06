@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-website",
+  "homepage": "https://github.com/nahidex/portfolio-website",
+  "authors": [
+    "Habibullah Nahid <nahidex@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
