@@ -85,8 +85,7 @@ h1, h2, h3, h4, h5, h6 {
     #header .center .middle {
       position: absolute;
       margin-top: -2em;
-      right: 0;
-      left: 0;
+      right: 140px;
       top: 50%;
       width: 80%;
       text-align: right; }
@@ -180,6 +179,84 @@ h1, h2, h3, h4, h5, h6 {
       padding-bottom: 1rem; }
   #instagram .section-content {
     margin-top: 4rem; }
+
+#project-nav a {
+  position: absolute;
+  left: 20px;
+  top: 20px; }
+  #project-nav a i {
+    font-size: 3rem; }
+
+.project-section {
+  height: 100%; }
+  .project-section .project-desc {
+    text-align: center;
+    margin-top: 25rem; }
+    .project-section .project-desc h1, .project-section .project-desc h4, .project-section .project-desc a {
+      color: #fff; }
+    .project-section .project-desc h1 {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 3rem;
+      margin-bottom: 3rem; }
+    .project-section .project-desc h4 {
+      font-family: "Libre Baskerville";
+      font-style: italic;
+      margin-bottom: 2rem; }
+    .project-section .project-desc a {
+      text-transform: uppercase;
+      display: inline-block;
+      padding: 1rem 3rem;
+      border: 2px solid #fff;
+      font-family: "Montserrat";
+      font-size: 1.2rem;
+      letter-spacing: 2px; }
+
+#project-1 {
+  background: url("../images/3.jpg ");
+  background-size: cover; }
+
+#project-2 {
+  background: url("../images/6.jpg ");
+  background-size: cover; }
+
+#project-3 {
+  background: url("../images/5.jpg ");
+  background-size: cover; }
+
+#project-4 {
+  background: url("../images/7.jpg ");
+  background-size: cover; }
+
+#project-5 {
+  background: url("../images/8_new.jpg ");
+  background-size: cover;
+  background-position: center top; }
+
+#project-6 {
+  background: url("../images/10.jpg ");
+  background-size: cover;
+  background-position: center top; }
+
+#cas a {
+  margin-top: 3rem;
+  color: #171b1e;
+  display: inline-block;
+  padding: 1rem 4rem;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  border: 2px solid #283593; }
+
+.footer-project-section {
+  padding: 6rem 0;
+  background: #fff; }
+  .footer-project-section p {
+    margin-bottom: 0;
+    line-height: 3rem; }
+  .footer-project-section h1 {
+    font-family: "Libre Baskerville";
+    margin-top: 0;
+    line-height: 5rem; }
 
 #footer {
   background: #283593; }

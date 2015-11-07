@@ -1,0 +1,99 @@
+#project-nav {
+
+	a {
+			position: absolute;
+			left:20px;
+			top:20px;
+
+		i {
+			font-size: 3rem;
+		}
+	}
+	
+}
+
+.project-section {
+	height: 100%;
+	.project-desc {
+		text-align: center;
+		margin-top:25rem;
+		h1,h4,a {
+			color:#fff;
+		}
+		h1 {
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-size: 3rem;
+			margin-bottom: 3rem;
+		}
+		h4 {
+			font-family: $cursive;
+			font-style: italic;
+			margin-bottom: 2rem;
+		}
+		a {
+			text-transform: uppercase;
+			display: inline-block;
+			padding:1rem 3rem;
+			border:2px solid #fff;
+			font-family: $heading-font;
+			font-size: 1.2rem;
+			letter-spacing: 2px;
+		}
+	}
+
+}
+
+
+#project-1 {
+	background: url('../images/3.jpg ');
+	background-size: cover;
+}
+#project-2 {
+	background: url('../images/6.jpg ');
+	background-size: cover;
+}
+#project-3 {
+	background: url('../images/5.jpg ');
+	background-size: cover;
+}
+#project-4 {
+	background: url('../images/7.jpg ');
+	background-size: cover;
+}
+#project-5 {
+	background: url('../images/8_new.jpg ');
+	background-size: cover;
+	background-position: center top;
+}
+#project-6 {
+	background: url('../images/10.jpg ');
+	background-size: cover;
+	background-position: center top;
+}
+#cas {
+	a {
+		margin-top: 3rem;
+		color:#171b1e;
+		display: inline-block;
+		padding:1rem 4rem;
+		font-family: $heading-font;
+		text-transform: uppercase;
+		border:2px solid $brand;
+	}
+}
+.footer-project-section {
+	padding: 6rem 0;
+	background: #fff;
+
+	p{
+		margin-bottom: 0;
+		line-height: 3rem;
+	}
+	h1 {
+		font-family: $cursive;
+		margin-top: 0;
+		line-height: 5rem;	
+	}
+
+}
