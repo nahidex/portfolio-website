@@ -3,7 +3,9 @@
  */
  $heading-font: 'Montserrat';
  $body-font: 'Poppins';
- $brand:#ff3000;
+ $cursive: 'Libre Baskerville';
+ $brand:#283593;
+
  p {
   font-weight: normal;
 }
@@ -126,13 +128,13 @@ $hrBgColor: #48CFAD;
 $hrColor: #FFFFFF;
 $hrSize: 5px;
 
-#page {
-  //border-top: $pageTopDecrease solid $hrColor;
-  background: #fff;
+
+
+
+.section {
+  padding: 10rem 0;
+  width: 100%;
   position: relative;
-  //margin-top: -($pageTopDecrease);
-  // height: 123.45%;
-  height: 100%;
   top: 100%;
-  box-shadow: 0px 22px 26px 16px #000;
+  background: #fff;
 }

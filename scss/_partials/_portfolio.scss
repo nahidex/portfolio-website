@@ -1,0 +1,46 @@
+#portfolio{
+  //border-top: $pageTopDecrease solid $hrColor;
+  background: #fff;
+  // position: relative;
+  // //margin-top: -($pageTopDecrease);
+  // // height: 123.45%;
+  // top: 100%;
+  box-shadow: 0px 22px 26px 16px #000;
+
+  h4 {
+  	font-family:$cursive;
+  	font-style:italic;
+  	font-size: 4rem;
+  	line-height: 6rem;
+  	margin-bottom: 4rem;
+  }
+  p{
+  	line-height: 2.5rem;
+  }
+  span {
+  	margin-top: 4rem;
+  	display: block;
+  	height:2px;
+  	width: 100px;
+  	background:$brand;
+  }
+
+  .section-content {
+  	margin-top: 8rem;
+  	text-align: left;
+  	i {
+  		font-size:4rem;
+  		display: inline-block;
+  		color:$brand;
+  	}
+  	h5 {
+  		margin-top: 2rem;
+  		font-family: $heading-font;
+  		font-style: normal;
+  		margin-bottom: 2rem;
+  		font-size:2rem;
+  		text-transform: uppercase;
+
+  	}
+  }
+}

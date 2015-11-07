@@ -1,0 +1,9 @@
+#footer {
+	background: $brand;
+	p{
+		color:#fff;
+		a {
+			color:darken(#fff, 25%);
+		}
+	}
+}

@@ -1,0 +1,17 @@
+#instagram {
+	background: #fff;
+	.section-heading {
+		text-align: center;
+		h3 {
+			margin-top: 0;
+			text-transform: uppercase;
+			font-family: $heading-font;
+			display: inline-block;
+			border-bottom: 2px solid $brand;
+			padding-bottom: 1rem;
+		}	
+	}
+	.section-content {
+		margin-top: 4rem;
+	}
+}

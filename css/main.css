@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 #header {
-  background: #ff3000;
+  background: #283593;
   background-size: cover;
   position: fixed;
   height: 100%;
@@ -95,9 +95,95 @@ h1, h2, h3, h4, h5, h6 {
       #header .center .middle span {
         font-size: 2rem; }
 
-#page {
-  background: #fff;
+.section {
+  padding: 10rem 0;
+  width: 100%;
   position: relative;
-  height: 100%;
   top: 100%;
+  background: #fff; }
+
+#portfolio {
+  background: #fff;
   box-shadow: 0px 22px 26px 16px #000; }
+  #portfolio h4 {
+    font-family: "Libre Baskerville";
+    font-style: italic;
+    font-size: 4rem;
+    line-height: 6rem;
+    margin-bottom: 4rem; }
+  #portfolio p {
+    line-height: 2.5rem; }
+  #portfolio span {
+    margin-top: 4rem;
+    display: block;
+    height: 2px;
+    width: 100px;
+    background: #283593; }
+  #portfolio .section-content {
+    margin-top: 8rem;
+    text-align: left; }
+    #portfolio .section-content i {
+      font-size: 4rem;
+      display: inline-block;
+      color: #283593; }
+    #portfolio .section-content h5 {
+      margin-top: 2rem;
+      font-family: "Montserrat";
+      font-style: normal;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      text-transform: uppercase; }
+
+#about {
+  padding-top: 0; }
+  #about .section-heading hr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 0; }
+  #about .section-heading p {
+    text-transform: uppercase;
+    font-family: "Montserrat"; }
+  #about .section-content h1 {
+    font-family: "Libre Baskerville";
+    line-height: 5rem;
+    font-size: 3rem;
+    letter-spacing: -1px; }
+
+#sub-section {
+  background: #283593;
+  color: #fff; }
+  #sub-section h1 {
+    margin-top: 0;
+    font-family: "Libre Baskerville";
+    line-height: 5rem; }
+  #sub-section p {
+    line-height: 3rem; }
+  #sub-section a {
+    font-family: "Montserrat";
+    font-size: 2rem;
+    margin-top: 3rem;
+    display: inline-block;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #6573d5; }
+    #sub-section a:hover {
+      border-bottom: 2px solid #fff; }
+
+#instagram {
+  background: #fff; }
+  #instagram .section-heading {
+    text-align: center; }
+    #instagram .section-heading h3 {
+      margin-top: 0;
+      text-transform: uppercase;
+      font-family: "Montserrat";
+      display: inline-block;
+      border-bottom: 2px solid #283593;
+      padding-bottom: 1rem; }
+  #instagram .section-content {
+    margin-top: 4rem; }
+
+#footer {
+  background: #283593; }
+  #footer p {
+    color: #fff; }
+    #footer p a {
+      color: #bfbfbf; }
