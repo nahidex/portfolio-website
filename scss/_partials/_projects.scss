@@ -1,17 +1,27 @@
-#project-nav {
+#project-nav-back, #project-nav-scroll-top {
 
 	a {
-			position: absolute;
-			left:20px;
-			top:20px;
-
+		position: absolute;
+		left:20px;
+		top:20px;
+		color:#fff;
+		border:2px solid #fff;
+		padding:1rem 1.5rem;
+		display: block;
 		i {
-			font-size: 3rem;
+			font-size: 2rem;
+
 		}
 	}
 	
 }
-
+#project-nav-scroll-top {
+	a {
+		position: fixed;
+		left:95%;
+		top:90%;
+	}
+}
 .project-section {
 	height: 100%;
 	.project-desc {
@@ -76,10 +86,10 @@
 		margin-top: 3rem;
 		color:#171b1e;
 		display: inline-block;
-		padding:1rem 4rem;
+		padding:1rem 0;
 		font-family: $heading-font;
 		text-transform: uppercase;
-		border:2px solid $brand;
+		border-bottom:2px solid $brand;
 	}
 }
 .footer-project-section {

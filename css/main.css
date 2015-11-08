@@ -180,12 +180,21 @@ h1, h2, h3, h4, h5, h6 {
   #instagram .section-content {
     margin-top: 4rem; }
 
-#project-nav a {
+#project-nav-back a, #project-nav-scroll-top a {
   position: absolute;
   left: 20px;
-  top: 20px; }
-  #project-nav a i {
-    font-size: 3rem; }
+  top: 20px;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 1rem 1.5rem;
+  display: block; }
+  #project-nav-back a i, #project-nav-scroll-top a i {
+    font-size: 2rem; }
+
+#project-nav-scroll-top a {
+  position: fixed;
+  left: 95%;
+  top: 90%; }
 
 .project-section {
   height: 100%; }
@@ -242,10 +251,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 3rem;
   color: #171b1e;
   display: inline-block;
-  padding: 1rem 4rem;
+  padding: 1rem 0;
   font-family: "Montserrat";
   text-transform: uppercase;
-  border: 2px solid #283593; }
+  border-bottom: 2px solid #283593; }
 
 .footer-project-section {
   padding: 6rem 0;
