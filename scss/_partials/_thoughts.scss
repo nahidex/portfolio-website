@@ -1,0 +1,91 @@
+#blog-header {
+	padding: 4rem 0;
+	text-align: center;
+	background: #fff;
+	color:$brand;
+	h1 {
+		font-size: 8rem;
+		letter-spacing: 5px;
+	}
+	p {
+		display: block;
+		margin-top: 4rem;
+		a {
+			color:$brand;
+			display: inline-block;
+			margin-right: 2rem;
+		}
+	}
+}
+
+#blog-container {
+	background: #fff;
+
+	article {
+		overflow: hidden;
+		width: 90%;
+		margin: 0 auto;
+		box-sizing: border-box;
+		margin-bottom: 5rem;
+		figure{
+			width: 40%;
+			img {
+				width: 100%;
+				filter: saturate(.6) contrast(0.8) brightness(1);
+			}
+		}
+		.details {
+			width: 60%;	
+			padding-left: 6rem;
+
+			h1 {
+				font-size: 2.5rem;
+				padding-bottom:1rem;
+				margin-top: 0;
+				a {
+					color:$brand;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					display: inline-block;
+					padding-bottom: 1rem;
+						border-bottom:2px solid white;
+
+
+					&:hover {
+						border-bottom:2px solid $brand;
+					}
+					
+				}
+			}
+			.date-time{
+				font-family: $body-font;
+				text-transform: uppercase;
+				font-size:12px;
+				letter-spacing: 3px;
+				color:lighten(#333,50%);
+				margin-bottom: 2rem;
+				a {
+					color:#333;
+				}
+			}
+			.post {
+				font-family: $cursive;
+				font-size: 1.7rem;
+				line-height: 3.5rem;
+				color:lighten(#333,30%);
+			}
+			.continue-link {
+				color:$brand;
+				text-transform: uppercase;
+				font-family: $heading-font;
+				display: inline-block;
+				padding-bottom: 1rem;
+				margin-top: 2rem;
+				border-bottom: 2px solid $brand;
+			}
+		}
+		figure, .details {
+			float: left;
+		}
+	}
+}
