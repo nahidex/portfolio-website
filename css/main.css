@@ -267,6 +267,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     line-height: 5rem; }
 
+.section-blog a {
+  color: #283593 !important;
+  border-color: #283593 !important; }
+
 #blog-header {
   padding: 4rem 0;
   text-align: center;

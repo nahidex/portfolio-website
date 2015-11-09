@@ -1,3 +1,9 @@
+.section-blog {
+	a {
+		color:$brand !important;
+		border-color:$brand !important;
+	}
+}
 #blog-header {
 	padding: 4rem 0;
 	text-align: center;
@@ -48,7 +54,7 @@
 					letter-spacing: 3px;
 					display: inline-block;
 					padding-bottom: 1rem;
-						border-bottom:2px solid white;
+					border-bottom:2px solid white;
 
 
 					&:hover {
